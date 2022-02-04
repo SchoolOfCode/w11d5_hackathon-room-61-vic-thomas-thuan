@@ -8,4 +8,8 @@
 
 ## deploy it on Netlify
 
+         - set github repo to public
+         - deployed to netlify
+         - link to live site -> https://dreamy-wing-0d5c43.netlify.app/
+
 ## Authentication befor starting the count

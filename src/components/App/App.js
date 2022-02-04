@@ -1,12 +1,12 @@
-import logo from "./soc-logo.svg";
 import "./App.css";
+import SheepCounter from "../SheepCounter/index";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>Hackathon Friday</p>
+        <SheepCounter />
       </header>
     </div>
   );

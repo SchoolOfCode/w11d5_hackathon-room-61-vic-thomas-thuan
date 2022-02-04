@@ -7,8 +7,8 @@ export default function SheepCounter() {
   return (
     <div>
       <h4>Sheep Counter</h4>
-      <button onClick={decrement}>Less</button>
-      <button onClick={increment}>More</button>
+      <button onClick={decrement}>- 1</button>
+      <button onClick={increment}>+ 1</button>
       <div style={{ display: "flex", justifyContent: "center" }}>
         {Array(count)
           .fill()
